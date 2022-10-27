@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Movie App</title>
+<script defer src="bundle.js"></script></head>
+<body>
+    <header>
+        <div class="wrap">
+            <nav id="nav" class="desktopNav">
+                <div class="left-col">
+                    <a href="#"><h1><i class="logo fa-sharp fa-solid fa-film"></i> Movie List</h1></a>
+                </div>
+                <a href="#" class="movies">Movies</a>
+                <a href="#">TV Shows</a>
+                <a href="#">Recommendation</a>
+                <div class="search-bar">
+                    <form action="" id="search-form">
+                        <input type="text" placeholder="Search for a movie title" id="searchElement">
+                    <button id="searchButton" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div class="genre-wrap">
+        <div id="genres">
+        </div>
+    </div> 
+
+    <main>
+        <div class="movie-container"></div>
+    </main>
+
+    <script type="module" src="app.js"></script>
+</body>
+<footer>
+    <script src="https://kit.fontawesome.com/083872a52b.js" crossorigin="anonymous"></script>
+</footer>
+</html>
